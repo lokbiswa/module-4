@@ -8,5 +8,7 @@ while (user != ans) {
   user = prompt("Enter your Password");
   if (user === ans) {
     alert("Welcome to the program");
+  } else {
+    alert("Incorrect password, try again");
   }
 }
